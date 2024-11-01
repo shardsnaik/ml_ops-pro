@@ -1,0 +1,8 @@
+entity :
+  entity is bascally return typr of fumction it smy be data ingestion or any other 
+  return type meances root_dir, source_url, local_data_file .....
+
+
+dataclasses!!
+dataclasses is decorator if we assign any top of the python class it will consider as antity variable  
+we can access as variable from other class
