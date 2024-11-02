@@ -21,4 +21,6 @@ ensure
 PyYAML
 Pillow
 scipy
+dagshub
+mlflow
 -e .
