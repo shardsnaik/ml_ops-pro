@@ -17,6 +17,7 @@ class PreparebaseModel:
 
         self.save_model(path=self.config.base_model_path, model=self.model)
     @staticmethod
+    # preparing base model
     def _prepare_full_model(model, classes, freeze_all, freeze_till, learning_rate):
         if freeze_all:
             for layer in model.layers:
@@ -38,7 +39,7 @@ class PreparebaseModel:
 
         full_model.compile(
             optimizer=Adam(learning_rate=learning_rate),
-            loss=tf.keras.losses.CategoricalCrossentropy(),
+            loss= tf.keras.losses.CategoricalCrossentropy(),
             metrics=["accuracy"]
         )
 

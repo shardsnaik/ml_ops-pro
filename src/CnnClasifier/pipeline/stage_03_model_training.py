@@ -1,4 +1,3 @@
-# from src.CnnClasifier.entity.model_training import Con
 from src.CnnClasifier.cofig.training_config import ConfigManeger
 from src.CnnClasifier.compo.training import Training
 from src.CnnClasifier import logger

@@ -79,10 +79,4 @@ class Evaluation:
                # Log model without registering if using a local file store
                mlflow.keras.log_model(self.model, "model")
 
-
-
-
-
-
-
-
+               

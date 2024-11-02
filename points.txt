@@ -6,3 +6,10 @@ entity :
 dataclasses!!
 dataclasses is decorator if we assign any top of the python class it will consider as antity variable  
 we can access as variable from other class
+
+
+ERROR: failed to reproduce 'training_model':  output 'artifacts\training\model.h5' is already tracked by SCM (e.g. Git).
+    You can remove it from Git, then add to DVC.
+        To stop tracking from Git:
+            git rm -r --cached 'artifacts\training\model.h5'
+            git commit -m "stop tracking artifacts\training\model.h5"
