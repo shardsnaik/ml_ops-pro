@@ -47,7 +47,7 @@ if __name__ == '__main__':
         logger.info('f>>>>>>>>>>> stage of  >>>>>>>>')
         logger.info('f>>>>>>>>>>> MODEL EVALUATION STARTED >>>>>>>>')
         tra = eval()
-        tra.main()
+        tra.run_pipeline()
         logger.info('f<<<<<<<<<<<<<<< stage of MODEL EVALUATION WITH ML-FLOW FINISHED<<<<<<<<<<<<<<<<<<<')
     except Exception as d:
        raise d

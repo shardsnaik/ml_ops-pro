@@ -5,7 +5,6 @@ from src.CnnClasifier import logger
 model = tf.keras.models.load_model('artifacts/training/model.h5')
 
 # model.summary()
-model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 class eval:
     def __init__(self):
@@ -25,7 +24,7 @@ if __name__ == '__main__':
         logger.info('f>>>>>>>>>>> stage of  >>>>>>>>')
         logger.info('f>>>>>>>>>>> MODEL EVALUATION STARTED >>>>>>>>')
         tra = eval()
-        tra.main()
+        tra.run_pipeline()
         logger.info('f<<<<<<<<<<<<<<< stage of MODEL EVALUATION WITH ML-FLOW FINISHED<<<<<<<<<<<<<<<<<<<')
     except Exception as d:
        raise d

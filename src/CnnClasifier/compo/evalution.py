@@ -48,8 +48,9 @@ class Evaluation:
     
     def evaluation(self):
         self.model  = self.load_model(self.config.path_of_model)
+        model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
         self._valid_generator()
-        self.score = model.evaluate(self.valid_generator)
+        self.score = model.evaluate(self.valid_generator) 
         self.save_score()
 
     def save_score(self):
