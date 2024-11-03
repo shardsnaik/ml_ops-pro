@@ -16,7 +16,7 @@ class eval:
        evl = confi.get_evaluation_config()
        eval = Evaluation(evl)
        eval.evaluation()
-       eval.log_into_mlFlow()
+    #    eval.log_into_mlFlow()
 
 
 if __name__ == '__main__':

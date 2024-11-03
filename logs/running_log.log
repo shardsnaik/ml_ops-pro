@@ -419,3 +419,9 @@ NameError: name 'zipfile' is not defined. Did you forget to import 'zipfile'
 [2024-11-02 23:25:00,180: INFO: common: yaml file params.yaml is loaded succesfully]
 [2024-11-02 23:25:00,182: INFO: common: created directory at: artifacts]
 [2024-11-02 23:25:01,007: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-11-03 16:10:21,946: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.178.202:8080]
+[2024-11-03 16:10:21,950: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-11-03 16:10:28,190: INFO: _internal: 127.0.0.1 - - [03/Nov/2024 16:10:28] "GET / HTTP/1.1" 200 -]
